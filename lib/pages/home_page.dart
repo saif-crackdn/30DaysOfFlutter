@@ -9,7 +9,14 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         //app Bar is the broad line on the top of the page.
-        title: Text("Universe App"),
+        //backgroundColor: Colors.white,
+        //elevaion is used to remove shadow.
+        //elevation: 0.0,
+        //iconTheme: IconThemeData(color: Colors.black),
+        title: Text(
+          "Universe App",
+          //style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Center(
         child: Container(
