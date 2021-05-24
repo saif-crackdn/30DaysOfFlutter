@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -7,6 +8,7 @@ class HomePage extends StatelessWidget {
     final String name = "Saif";
     return Scaffold(
       appBar: AppBar(
+        //app Bar is the broad line on the top of the page.
         title: Text("Universe App"),
       ),
       body: Center(
@@ -14,7 +16,8 @@ class HomePage extends StatelessWidget {
           child: Text("welcome to my $days planet $name"),
         ),
       ),
-      drawer: Drawer(),
+      //drawer is the three dots on top left of the appBar.
+      drawer: MyDrawer(),
     );
   }
 }
